@@ -1,1 +1,36 @@
-# kubernetes-mern-app
+# ☸️kubernetes-mern-app
+
+
+## commands that are used in this project.
+
+```
+choco install kubernetes-cli
+minikube start
+```
+++++++++++++++++++++++++++++++++++++++
+```
+minikube start
+kubectl get pod
+kubectl apply -f mongo-config.yaml
+kubectl apply -f secret.yaml
+kubectl apply -f mongo-app.yaml
+kubectl apply -f web-app.yaml
+kubectl get pod
+kubectl get configmap
+kubectl get secret
+kubectl get svc
+minikube ip
+kubectl get node -o wide
+```
+
+```
+minikube service webapp-service
+```
+++++++++++++++++++++++++++++++++++++++
+```
+kubectl delete deployment --all
+```
+```
+kubectl delete secret --all
+```
+
